@@ -13,7 +13,7 @@ function draw() {
     let h = hour();
     let m = minute();
     let s = second();
-
+    console.log(h);
     background(180);
 
     if (m !== lastMinute) {
